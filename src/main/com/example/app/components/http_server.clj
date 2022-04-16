@@ -31,4 +31,5 @@
  stop
  [server]
  [AlephServer => :any]
+ (log/info "Stopping http-server")
  (.close server))

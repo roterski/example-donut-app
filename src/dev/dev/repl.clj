@@ -13,10 +13,10 @@
   (ds/system :dev))
 
 (defn start []
-  (system/start (ds/named-system ::ds/repl)))
+  (dsr/start))
 
 (defn stop []
-  (system/stop))
+  (dsr/stop))
 
 (defn restart []
   (dsr/restart))
