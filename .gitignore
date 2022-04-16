@@ -1,0 +1,10 @@
+.vscode
+.lsp
+.portal
+.DS_Store
+.calva
+.cpcache
+.nrepl-port
+.clj-kondo/.cache
+resources
+src/main/config/local.edn
